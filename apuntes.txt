@@ -1,0 +1,33 @@
+    Páginas 
+
+    inicio: recibe al cliente y hace introducir su información
+
+        Dos opciones:
+
+        Mis álbumes:Muestra los álbumes del usuario.
+
+        Crear album: El usuario hace un album con las fotos de interés. Una vez ingresadas las fotos se pulsa en "Crear álbum" o similar.
+        El directorio con las fotos se crearán automaticamente.
+
+
+
+
+
+        /* echo print_r($_FILES['archivo']); */
+        /* Devuelve el tamaño del archivo */
+        $tamaño = $_FILES['archivo']['size'];
+
+        /* basename() devuelve el último nombre de una ruta */
+        $archivo = 'img/' . basename($_FILES['archivo']['name']);
+
+        /* Obtener el tipo de archivo */
+        $tipo_archivo = pathinfo($archivo, PATHINFO_EXTENSION);
+
+        /* Nombre completo del archivo */
+        /* echo pathinfo($archivo, PATHINFO_BASENAME); */
+
+        /* Nombre del directorio */
+        /* echo pathinfo($archivo, PATHINFO_DIRNAME); */
+
+        /* Nombre final del archivo */
+        /* echo pathinfo($archivo, PATHINFO_FILENAME); */

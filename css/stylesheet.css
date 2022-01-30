@@ -1,0 +1,160 @@
+
+body{
+    margin: 0 auto;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
+
+header{
+    background-color: rgb(57, 67, 80);
+}
+
+header h1{
+    font-size: 5em;
+    font-family: 'Verdana';
+    padding-left: 8%;
+    margin: 0;
+    color: rgb(128, 133, 169);
+}
+
+/* Estilos del nav */
+nav{
+    width: 100%;
+    background-color: #484646;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    font-size: 1.2em;
+    padding: 1%;
+    flex-grow: 1;
+}
+
+nav ul li a{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.4px;
+    width: 100%;
+}
+
+/* Estilos del main */
+
+main h2{
+    padding: 1%;
+    font-size: 3em;
+}
+
+#titularInicio{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+main h3{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main div{
+    text-align: center;
+}
+
+main div h3{
+    font-size: 1.8em;
+    padding: 1% 0%;
+}
+
+main a{
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    padding: 0.2% 1%;
+    background-color: #efefee;
+    border: 1px solid #b9b4b4;
+    color: black;
+    box-shadow: 0px 0px 0px 0px inset black;
+    border-radius: 6px;
+    font-size: 2.5em;
+    font-weight: bold;
+    transition:  background-color 0.5s;
+}
+
+main a:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+/* Nota informativa de la página de inicio */
+
+#aviso{ 
+    font-size: 2em;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 2em;
+}
+
+table{
+    width: 100%;
+}
+
+table tr{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+tr div{
+    width: 100%;
+}
+
+tr div img{
+    width: 100%;
+}
+
+td span{
+    font-size: 1.5em;
+}
+
+/* Estilos del footer */
+
+footer{
+    display: grid;
+    width: 100%;
+    height: 40px;
+    background-color: #292a2c;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    align-items: center;
+}
+
+footer h3{
+    margin: 0;
+    margin-left: 2%;
+}
+
+#footerGaleria{
+    position: relative;
+}

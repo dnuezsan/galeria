@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <a href="inicio.php">
+            <h1>PIXOMS</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="subir_img.php">Subir archivos</a>
+                </li>
+                <li>
+                    <a href="ver_imagenes.php">Ver imágenes</a>
+                </li>
+                <li>
+                    <a href="nombre_img.php">Ver nombre de la imagen</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Introduce un nombre</h2>
+        <h3>Podrás ver los albumes de todos tu hermanos de nombre y ellos el tuyo</h3>
+        <form action="carpetas.php" method="post">
+            <label for="cliente">Nombre</label>
+            <input type="text" name="cliente">
+            <input type="submit" value="sube">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
